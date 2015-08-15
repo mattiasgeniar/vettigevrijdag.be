@@ -1,0 +1,4 @@
+# The only true URL is without www. subdomain
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^vettigevrijdag\.be
+RewriteRule ^(.*)$ http://vettigevrijdag.be/$1 [R=301,L]

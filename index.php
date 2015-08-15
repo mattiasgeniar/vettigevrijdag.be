@@ -47,6 +47,20 @@ $text_intro2    = $page_content['intro2'];
   <!-- Vettige Vrijdag CSS -->
   <link href="assets/css/vettigevrijdag.css" rel="stylesheet" media="screen">
 
+  <!-- Twitter Cards meta tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@mattiasgeniar">
+  <meta name="twitter:creator" content="@mattiasgeniar">
+  <meta name="twitter:title" content="En ... wat eten we vandaag?">
+  <meta name="twitter:description" content="Tis vettige vrijdag. Benieuwd naar de vettige suggestie van de week?">
+  <meta name="twitter:image" content="http://vettigevrijdag.be<?= $background_img ?>">
+
+  <!-- Facebook Open Graph meta tags -->
+  <meta property="og:title" content="En ... wat eten we vandaag?" />
+  <meta property="og:site_name" content="Vettige Vrijdag"/>
+  <meta property="og:url" content="http://vettigevrijdag.be" />
+  <meta property="og:description" content="Tis vettige vrijdag. Benieuwd naar de vettige suggestie van de week?" />
+  <meta property="og:image" content="http://vettigevrijdag.be<?= $background_img ?>" />
 </head>
 <body>
   <section id="home" class="pfblock-image screen-height">
