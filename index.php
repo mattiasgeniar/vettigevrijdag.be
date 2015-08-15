@@ -49,9 +49,6 @@ $text_intro2    = $page_content['intro2'];
 
 </head>
 <body>
-
-  <!-- Home start -->
-
   <section id="home" class="pfblock-image screen-height">
         <div class="home-overlay"></div>
     <div class="intro">
@@ -61,9 +58,15 @@ $text_intro2    = $page_content['intro2'];
     </div>
   </section>
 
-  <!-- Home end -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  <!-- Navigation start -->
+  ga('create', 'UA-66382018-1', 'auto');
+  ga('send', 'pageview');
 
+</script>
 </body>
 </html>
