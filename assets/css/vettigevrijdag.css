@@ -22,3 +22,9 @@
   font-size: 20px;
   font-weight: 400;
 }
+
+.footer_text {
+  text-align: center;
+  color: #eee;
+  font-weight: 300;
+}

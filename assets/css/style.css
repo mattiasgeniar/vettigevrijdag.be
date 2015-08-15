@@ -20,12 +20,13 @@ img {
 }
 
 a {
-	color: #E7746F;
+	color: #eee;
+	text-decoration: underline;
 }
 
 a:hover {
 	text-decoration: none;
-	color: #999;
+	color: #fff;
 }
 
 /* ---------------------------------------------- /*

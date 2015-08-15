@@ -50,7 +50,7 @@ $text_intro2    = $page_content['intro2'];
 </head>
 <body>
   <section id="home" class="pfblock-image screen-height">
-        <div class="home-overlay"></div>
+    <div class="home-overlay"></div>
     <div class="intro">
       <div class="start normaltext"><?= $text_intro1 ?></div>
       <h1><?= $text_middle ?></h1>
@@ -58,15 +58,21 @@ $text_intro2    = $page_content['intro2'];
     </div>
   </section>
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  <footer class=" navbar-fixed-bottom">
+    <div class="container">
+      <p class="footer_text">Dit is een website van <a href="https://ma.ttias.be" target="_blank">ma.ttias.be</a>.</p>
+    </div>
+  </footer>
 
-  ga('create', 'UA-66382018-1', 'auto');
-  ga('send', 'pageview');
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-</script>
+    ga('create', 'UA-66382018-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
 </body>
 </html>
