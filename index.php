@@ -20,8 +20,7 @@ if (strtolower(date('l')) == 'friday' || isset($_GET['DEBUG_FAKE_FRIDAY'])) {
   $data_array = $vegetables;
 }
 
-//$page_content = $data_array[rand(0, count($data_array)-1)];
-$page_content = $data_array[14];
+$page_content = $data_array[rand(0, count($data_array)-1)];
 
 // Set some variables used below (CSS style & text)
 $background_img = $page_content['img'];
