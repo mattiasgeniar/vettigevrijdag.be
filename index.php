@@ -46,6 +46,7 @@ $text_intro2    = $page_content['intro2'];
 
   <!-- Vettige Vrijdag CSS -->
   <link href="assets/css/vettigevrijdag.css" rel="stylesheet" media="screen">
+  <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
 
   <!-- Twitter Cards meta tags -->
   <meta name="twitter:card"        content="summary_large_image">
