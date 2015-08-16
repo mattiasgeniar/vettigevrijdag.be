@@ -9,7 +9,7 @@ require_once('dataset.php');
 // to the current day, so today will always get the same "random" value.
 // Unless debug mode is enabled
 if (!isset($_GET['DEBUG_RANDOM_EVERY_TIME']))
-  srand(mktime(0, 0, 0));
+  srand(mktime(0, 0, 0, date("n"), 'date("j")', date("Y")));
 
 // Is it friday?
 if (strtolower(date('l')) == 'friday' || isset($_GET['DEBUG_FAKE_FRIDAY'])) {
