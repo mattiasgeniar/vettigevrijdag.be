@@ -9,7 +9,7 @@ require_once('dataset.php');
 // to the current day, so today will always get the same "random" value.
 // Unless debug mode is enabled
 if (!isset($_GET['DEBUG_RANDOM_EVERY_TIME']))
-  srand(mktime(0, 0, 0, date("n"), 'date("j")', date("Y")));
+  srand(mktime(0, 0, 0, date("n"), date("j"), date("Y")));
 
 // Is it friday?
 if (strtolower(date('l')) == 'friday' || isset($_GET['DEBUG_FAKE_FRIDAY'])) {
@@ -45,6 +45,8 @@ $text_intro2    = $page_content['intro2'];
   <link href="assets/css/style.css" rel="stylesheet" media="screen">
 
   <!-- Vettige Vrijdag CSS -->
+  <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
   <link href="assets/css/vettigevrijdag.css" rel="stylesheet" media="screen">
   <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
 
