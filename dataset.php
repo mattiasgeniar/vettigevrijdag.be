@@ -41,8 +41,6 @@ $fatfoods = array (
     'middle' => 'Vandaag zijn het vettige frieten!',
     'intro2' => 'Mét stoofvleessaus.'
   ),
-
-
   array (
     'img'    => '/assets/images/nonvegetables/hamburger1.jpg',
     'intro1' => 'Morgen begint het weekend, dus ... ',
@@ -67,8 +65,6 @@ $fatfoods = array (
     'middle' => 'Time for comfort food. With a burger.',
     'intro2' => 'Speel op veilig en bestel er maar ineens 2.'
   ),
-
-
   array (
     'img'    => '/assets/images/nonvegetables/pizza1.jpg',
     'intro1' => 'Vrijdag was nog nooit zo plezant.',
@@ -87,7 +83,6 @@ $fatfoods = array (
     'middle' => 'Want dan is \'t vettige vrijdag. Met pizza!',
     'intro2' => 'Neemt nen BBQ chicken. Met alle extra opties die ge maar kunt pakken.'
   ),
-
   array (
     'img'    => '/assets/images/nonvegetables/pancakes1.jpg',
     'intro1' => 'Precies of we hebben dees verdiend ...',
@@ -100,8 +95,6 @@ $fatfoods = array (
     'middle' => 'Pannenkoeken zijn toch ook rond!',
     'intro2' => 'En in confituur zitten ook fruitjes. Dus das gezond.'
   ),
-
-
   array (
     'img'    => '/assets/images/nonvegetables/chickenwings1.jpg',
     'intro1' => '\'t wier hoog tijd dat het vrijdag werd!',
@@ -114,8 +107,6 @@ $fatfoods = array (
     'middle' => 'Wa boeit da. Ik heb goesting in chicken wings.',
     'intro2' => 'En ge moogt u flauwe moppen houden.'
   ),
-
-
   array (
     'img'    => '/assets/images/nonvegetables/bacon1.jpg',
     'intro1' => '\'t heeft lang geduurd, maar tis vrijdag!',
@@ -128,8 +119,6 @@ $fatfoods = array (
     'middle' => 'This means bacon. Lots of it.',
     'intro2' => 'Op een baconbroodje, gedrenkt in baconvet en afgewerkt met stukjes bacon.'
   ),
-
-
   array (
     'img'    => '/assets/images/nonvegetables/chinees1.jpg',
     'intro1' => '\'Eindelijk vrijdag!',
@@ -145,31 +134,27 @@ $fatfoods = array (
   array (
     'img'    => '/assets/images/nonvegetables/chinees3.jpg',
     'intro1' => 'Chinees nieuwjaar? Geef mij maar ne vettige vrijdag!',
-    'middle' => 'En een afhaalchinees. Damnit, da smaakt.',
-    'intro2' => 'Ne loempia, varkenssaté, wa nasigoreng en kikkerbillekes. Oh yeah.'
+    'middle' => 'En een afhaalchinees. Dammit, da smaakt.',
+    'intro2' => 'Ne loempia, varkenssaté, wa nasi goreng en kikkerbillekes. Oh yeah.'
   ),
-
-
   array (
     'img'    => '/assets/images/nonvegetables/durum1.jpg',
     'intro1' => '\'Ne vrijen dag? Nee, vrijdag!',
-    'middle' => 'Ne goeien durum. Met looksaus.',
+    'middle' => 'Ne goeien dürüm. Met looksaus.',
     'intro2' => 'De collega\'s gaan kwaad zijn, but who cares - right!'
   ),
   array (
     'img'    => '/assets/images/nonvegetables/durum2.jpg',
     'intro1' => 'Wa rollen we op Vettige Vrijdag?',
-    'middle' => 'Nen durum. Da rollen we! Met extra saus.',
-    'intro2' => 'Eentje me extra kebak. Puur. Zonder groentjes.'
+    'middle' => 'Nen dürüm. Da rollen we! Met extra saus.',
+    'intro2' => 'Eentje me extra kebab. Puur. Zonder groentjes.'
   ),
   array (
     'img'    => '/assets/images/nonvegetables/durum3.jpg',
     'intro1' => 'Het smaakt gewoon dubbel zo goe op Vettige Vrijdag ... ',
-    'middle' => 'Nen durum. Nen echte, vettige, goeien durum.',
-    'intro2' => 'Me looksaus. En extra kebak.'
+    'middle' => 'Nen durum. Nen echte, vettige, goeien dürüm.',
+    'intro2' => 'Me looksaus. En extra kebab.'
   ),
-
-
   array (
     'img'    => '/assets/images/nonvegetables/pita1.jpg',
     'intro1' => 'Wat eten we op deze vrijdag?',
