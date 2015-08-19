@@ -14,10 +14,12 @@ if (!isset($_GET['DEBUG_RANDOM_EVERY_TIME']))
 // Is it friday?
 if (strtolower(date('l')) == 'friday' || isset($_GET['DEBUG_FAKE_FRIDAY'])) {
   // Yup, friday (or debug mode), pick a random one from the array
-  $data_array = $fatfoods;
+  // Duplicate the array a few times, gives more random value possibilities
+  $data_array = array_merge ($fatfoods, $fatfoods, $fatfoods);
 } else {
   // Not friday, show some vegetables
-  $data_array = $vegetables;
+  // Duplicate the array a few times, gives more random value possibilities
+  $data_array = array_merge ($vegetables, $vegetables, $vegetables);
 }
 
 $page_content = $data_array[rand(0, count($data_array)-1)];
