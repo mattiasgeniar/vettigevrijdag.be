@@ -79,7 +79,7 @@ $text_intro2    = $page_content['intro2'];
 
   <footer class=" navbar-fixed-bottom">
     <div class="container">
-      <p class="footer_text">Dit is een website van <a href="https://ma.ttias.be" target="_blank">ma.ttias.be</a> - <a href="https://github.com/mattiasgeniar/vettigevrijdag.be" target="_blank">fork me</a> - <a href="https://www.facebook.com/vettigevrijdag.be" target="_blank">facebook</a>.</p>
+      <p class="footer_text">Dit is een website van <a href="https://ma.ttias.be" target="_blank">ma.ttias.be</a> - <a href="https://github.com/mattiasgeniar/vettigevrijdag.be" target="_blank">fork me</a> - <a href="https://www.facebook.com/vettigevrijdag.be" target="_blank">facebook</a> - <a href="https://twitter.com/vettigevrijdag" target="_blank">@vettigevrijdag</a>.</p>
     </div>
   </footer>
 
