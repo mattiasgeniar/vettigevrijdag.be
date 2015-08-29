@@ -5,12 +5,12 @@ ini_set('date.timezone', 'Europe/Brussels');
 // Is this the clean URL? If not, redirect
 $today = date('Y') .'/'. date('m') .'/'. date('d');
 if (!isset($_GET['date'])) {
-  header ('Location: /'. $today, true, 301);
+  header ('Location: /'. $today .'/', true, 301);
 }
 
 // Is the current date in the URL the one for today? If not, redirect to today.
 if ($_GET['date'] != $today) {
-  header ('Location: /'. $today, true, 301);
+  header ('Location: /'. $today .'/', true, 301);
 }
 
 // Load our dataset with text, fat-food and CSS styles
