@@ -60,7 +60,7 @@ $text_intro2    = $page_content['intro2'];
   <!-- Vettige Vrijdag CSS -->
   <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
-  <link href="assets/css/vettigevrijdag.css" rel="stylesheet" media="screen">
+  <link href="/assets/css/vettigevrijdag.css" rel="stylesheet" media="screen">
   <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
 
   <!-- Twitter Cards meta tags -->
