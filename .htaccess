@@ -2,3 +2,5 @@
 RewriteEngine On
 RewriteCond %{HTTP_HOST} !^vettigevrijdag\.be
 RewriteRule ^(.*)$ http://vettigevrijdag.be/$1 [R=301,L]
+
+RewriteRule    ^([0-9]{4})/([0-9]{2})/([0-9]{2})/$  index.php?date=$1/$2/$3    [NC,L]

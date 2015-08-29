@@ -2,6 +2,17 @@
 // Set the timezone
 ini_set('date.timezone', 'Europe/Brussels');
 
+// Is this the clean URL? If not, redirect
+$today = date('Y') .'/'. date('m') .'/'. date('d');
+if (!isset($_GET['date'])) {
+  header ('Location: /'. $today, true, 301);
+}
+
+// Is the current date in the URL the one for today? If not, redirect to today.
+if ($_GET['date'] != $today) {
+  header ('Location: /'. $today, true, 301);
+}
+
 // Load our dataset with text, fat-food and CSS styles
 require_once('dataset.php');
 
@@ -41,10 +52,10 @@ $text_intro2    = $page_content['intro2'];
   <title>VettigeVrijdag.be</title>
 
   <!-- CSS -->
-  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 
   <!-- Custom styles CSS -->
-  <link href="assets/css/style.css" rel="stylesheet" media="screen">
+  <link href="/assets/css/style.css" rel="stylesheet" media="screen">
 
   <!-- Vettige Vrijdag CSS -->
   <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
