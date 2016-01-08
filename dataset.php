@@ -159,7 +159,7 @@ $fatfoods = array (
     'img'    => '/assets/images/nonvegetables/pita1.jpg',
     'intro1' => 'Wat eten we op deze vrijdag?',
     'middle' => 'Ne goeie pita. Da kan der altijd in.',
-    'intro2' => 'Ge kunt da zelfs veggie krijgen. As ge da plezant vind.'
+    'intro2' => 'Ge kunt da zelfs veggie krijgen. As ge da plezant vindt.'
   ),
   array (
     'img'    => '/assets/images/nonvegetables/pita2.jpg',
