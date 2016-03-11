@@ -58,8 +58,8 @@ $text_intro2    = $page_content['intro2'];
   <link href="/assets/css/style.css" rel="stylesheet" media="screen">
 
   <!-- Vettige Vrijdag CSS -->
-  <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
   <link href="/assets/css/vettigevrijdag.css" rel="stylesheet" media="screen">
   <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
 
@@ -69,14 +69,14 @@ $text_intro2    = $page_content['intro2'];
   <meta name="twitter:creator"     content="@mattiasgeniar">
   <meta name="twitter:title"       content="En ... wat eten we vandaag?">
   <meta name="twitter:description" content="Op vettige vrijdag krijgde een vettige suggestie van de week. Is 't al vrijdag?">
-  <meta name="twitter:image"       content="http://vettigevrijdag.be<?= $background_img ?>">
+  <meta name="twitter:image"       content="https://vettigevrijdag.be<?= $background_img ?>">
 
   <!-- Facebook Open Graph meta tags -->
   <meta property="og:title"       content="En ... wat eten we vandaag?" />
   <meta property="og:site_name"   content="Vettige Vrijdag"/>
-  <meta property="og:url"         content="http://vettigevrijdag.be" />
+  <meta property="og:url"         content="https://vettigevrijdag.be" />
   <meta property="og:description" content="Op vettige vrijdag krijgde een vettige suggestie van de week. Is 't al vrijdag?" />
-  <meta property="og:image"       content="http://vettigevrijdag.be<?= $background_img ?>" />
+  <meta property="og:image"       content="https://vettigevrijdag.be<?= $background_img ?>" />
 </head>
 <body>
   <section id="home" class="pfblock-image screen-height">
