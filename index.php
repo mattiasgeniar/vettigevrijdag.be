@@ -2,28 +2,16 @@
 // Set the timezone
 ini_set('date.timezone', 'Europe/Brussels');
 
-// Is this the clean URL? If not, redirect
-$today = date('Y') .'/'. date('m') .'/'. date('d');
-if (!isset($_GET['date'])) {
-  header ('Location: /'. $today .'/', true, 301);
-}
-
-// Is the current date in the URL the one for today? If not, redirect to today.
-if ($_GET['date'] != $today) {
-  header ('Location: /'. $today .'/', true, 301);
-}
-
 // Load our dataset with text, fat-food and CSS styles
 require_once('dataset.php');
 
 // Pick a "random" value per day. To do so, set PHP's rand() seed
 // to the current day, so today will always get the same "random" value.
 // Unless debug mode is enabled
-if (!isset($_GET['DEBUG_RANDOM_EVERY_TIME']))
-  srand(mktime(0, 0, 0, date("n"), date("j"), date("Y")));
+srand(mktime(0, 0, 0, date("n"), date("j"), date("Y")));
 
 // Is it friday?
-if (strtolower(date('l')) == 'friday' || isset($_GET['DEBUG_FAKE_FRIDAY'])) {
+if (strtolower(date('l')) == 'friday') {
   // Yup, friday (or debug mode), pick a random one from the array
   // Duplicate the array a few times, gives more random value possibilities
   $data_array = array_merge ($fatfoods, $fatfoods, $fatfoods);
