@@ -3,7 +3,7 @@
 ini_set('date.timezone', 'Europe/Brussels');
 
 // Load our dataset with text, fat-food and CSS styles
-require_once('dataset.php');
+require_once('../dataset.php');
 
 // Pick a "random" value per day. To do so, set PHP's rand() seed
 // to the current day, so today will always get the same "random" value.
